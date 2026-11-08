@@ -1,0 +1,17 @@
+{
+  "name": "eink-clock-tools",
+  "private": true,
+  "description": "Generates the screen fonts and icons, the 3D-printed frame, and photo images",
+  "scripts": {
+    "assets": "node make-ui-assets.cjs",
+    "frame": "node make-frame.cjs",
+    "photo": "node make-photo.cjs"
+  },
+  "dependencies": {
+    "@jscad/modeling": "^2.13.0",
+    "@jscad/stl-serializer": "^2.1.23",
+    "jimp": "^0.22.12",
+    "opentype.js": "^1.3.4",
+    "svgpath": "^2.6.0"
+  }
+}
